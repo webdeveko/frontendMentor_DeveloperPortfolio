@@ -2,6 +2,8 @@ import React from 'react'
 
 import image from '../assets/image.webp'
 
+import { Link } from 'react-scroll'
+
 const Hero = () => {
   return (
     <section id='home'>
@@ -13,7 +15,15 @@ const Hero = () => {
         <div className='max-w-[680px] text-center md:text-left'>
           <h1 className='justify-start font-bold text-[40px] md:text-7xl tracking-[-1.14px] mb-12'>Nice to meet you! I'm <span className='underline underline-offset-4 decoration-[#4EE1A0]'>Adam Keyes</span></h1>
           <p className='max-w-[445px] font-medium text-lg mb-14'>Based in the UK, I'm a front-end developer passionate about building accessible seb apps that users love.</p>
-          <button className='transparent uppercase underline underline-offset-[12px] decoration-[#4EE1A0] hover:text-[#4EE1A0]'>Contact Me</button>
+          <Link
+          to='contact' 
+          activeClass='active'
+          smooth={true}
+          spy={true}
+          offset={-200}
+          >
+          <button className='transparent uppercase underline underline-offset-[12px] decoration-[#4EE1A0] hover:text-greenish'>Contact Me</button>
+        </Link>
         </div>      
       </div>
         <div className='mx-8'>

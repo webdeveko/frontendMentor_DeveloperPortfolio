@@ -9,3 +9,12 @@
         font-family: 'Space Grotesk', sans-serif;
     }
 }
+
+.errors {
+    font-size: 12px;
+    color: #FF6F5B;
+    font-weight: 500;
+    line-height: 16px;
+    padding-top: 4px;
+    text-align: end;
+}

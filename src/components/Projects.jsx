@@ -7,12 +7,21 @@ import project4 from '../assets/project4.webp'
 import project5 from '../assets/project5.webp'
 import project6 from '../assets/project6.webp'
 
+import {Link} from 'react-scroll'
 const Projects = () => {
   return (
     <div className='items-center text-white px-8 max-w-7xl mx-auto mb-16' >
       <div className='flex justify-between items-center mb-5'>
         <h1 className='font-bold text-[40px] md:text-[72px] xl:text-[88px]'>Projects</h1>
-        <button className='transparent uppercase underline underline-offset-[12px] decoration-[#4EE1A0] hover:text-greenish'>Contact Me</button>
+        <Link
+          to='contact' 
+          activeClass='active'
+          smooth={true}
+          spy={true}
+          offset={-200}
+          >
+          <button className='transparent uppercase underline underline-offset-[12px] decoration-[#4EE1A0] hover:text-greenish'>Contact Me</button>
+        </Link>
       </div>
       <div className='grid sm:grid-cols-1 md:grid-cols-2 w-full text-white max-w-7xl mx-auto mb-5 gap-x-6'>
         <div className='mb-4 md:mb-10'>

@@ -12,11 +12,8 @@ This is a solution to the [Single-page developer portfolio challenge on Frontend
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -29,88 +26,48 @@ Users should be able to:
   - The email address is not formatted correctly
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
-- **Bonus**: Hook the form up so it sends and stores the user's enquiry (you can use a spreadsheet or Airtable to save the enquiries)
-- **Bonus**: Add your own details (image, skills, projects) to replace the ones in the design
+
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![Desktop](./screenshot/SPA%20Desktop.jpeg)
+![Tablet](./screenshot/SPA%20Tablet.jpeg)
+![Mobile](./screenshot/SPA%20Mobile.jpeg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github Page](https://github.com/genziddesign/frontendMentor_DeveloperPortfolio)
+- Live Site URL: [Live Page](https://644ca619847cab502aed17cf--silver-caramel-692d44.netlify.app/)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- [Vite.js](https://vitejs.dev/) - React framework
+- [Tailwind](https://tailwindcss.com/) - For styles
+- [React Hook Form](https://react-hook-form.com/) - For Form Validation
+- [React Scroll](https://www.npmjs.com/package/react-scroll) - For link to contact me section
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I build several tutorial for website by following tutorial in youtube. At first, i though this website creation is quite easy since eventhough i have a difficulty to follow the tutorials, at the end, i can make the website running on my local computers similar to what the tutorial shown (not really the same because different version of framework need the code to be adjusted or the final result need to be modified)
 
-To see how you can add code snippets, see below:
+Since im confident with my ability to do the website design, i sign-up to Front-End Mentor Pro to have a pro challange on creating the website and start doing it on my own. this is where i realize that copying and following the tutorial doesn't make you have the skill of the youtuber when creating the website. A lot of preparation that is made by them (like preparing the style, standard color, gradient, font size,etc which already given before the tutorial happens) now need to be created by my self. I found that it really need effort to nail down the theory that you have and apply it to the real world project (or real website i might say). So this time, i really start again from the basic on how to prepare the website creation according to the design system provided by Front-End Mentor.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+After the preparation is done, the next hurdle is when creating the website itself. It turns out that i know very little understanding about the CSS, javascript and react since i think i know how to proceed the website execution but it really hard to implement what i do in the tutorials in this real project. It really need determination and consistency to overcome the errors happen during this website creation. To minimize the error, i really go to the basic which i code every line without using sophisticated method that can make my code cleaner. at the end of the day, eventhough some picture is not added in the website, i think im pretty satisfied with the result that i get.
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I will learn more about CSS for styling and practice more website creation using react and try to make the code a little bit cleaner (like what i saw in the youtube video tutorial)
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@genziddesign](https://www.frontendmentor.io/profile/genziddesign)
+- Twitter - [@ekophe](https://twitter.com/ekophe)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**

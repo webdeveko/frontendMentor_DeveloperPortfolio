@@ -7,7 +7,7 @@ import twitter from '../assets/twitter.svg'
 const Footers = () => {
   return (
     <section className=' bg-dark-gray'>
-      <div className='flex flex-col  md:flex-row  justify-between items-center w-full h-20 md:h-16 text-white px-8 max-w-7xl mx-auto'>
+      <div className='flex flex-col  md:flex-row  justify-between items-center w-full h-20 md:h-16 text-white px-8 max-w-6xl mx-auto'>
         <div className='mb-2'>
           <h3 className='text-2xl font-bold' >adamkeyes</h3>
         </div>

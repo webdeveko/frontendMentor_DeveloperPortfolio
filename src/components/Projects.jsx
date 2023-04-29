@@ -10,7 +10,7 @@ import project6 from '../assets/project6.webp'
 import {Link} from 'react-scroll'
 const Projects = () => {
   return (
-    <div className='items-center text-white px-8 max-w-7xl mx-auto mb-16' >
+    <div className='items-center text-white px-8 max-w-6xl mx-auto mb-16' >
       <div className='flex justify-between items-center mb-5'>
         <h1 className='font-bold text-[40px] md:text-[72px] xl:text-[88px]'>Projects</h1>
         <Link

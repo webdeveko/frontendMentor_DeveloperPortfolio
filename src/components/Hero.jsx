@@ -17,7 +17,7 @@ const Hero = () => {
         </div>
 
         <div className='max-w-[680px] text-center md:text-left'>
-          <h1 className='xl:max-w-[680px] md:max-w-[445px] justify-start font-bold text-[40px] md:text-7xl tracking-[-1.14px] mb-12'>Nice to meet you! I'm <span className='underline underline-offset-4 decoration-[#4EE1A0]'>Adam Keyes</span></h1>
+          <h1 className='xl:max-w-[680px] md:max-w-[445px] justify-start font-bold text-[40px] md:text-7xl tracking-[-1.14px] mb-12'>Nice to meet you! I'm <span className='border-b-4 border-greenish'>Adam Keyes</span></h1>
           <p className='max-w-[445px] font-medium text-lg mb-14'>Based in the UK, I'm a front-end developer passionate about building accessible seb apps that users love.</p>
           <Link
           to='contact' 
